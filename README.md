@@ -1,2 +1,5 @@
-# 3128
-234342234
+local args = {
+    [1] = true
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.PromptWearLastOutfit.PromptResult:FireServer(unpack(args))
